@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+    padding-top: 120px;
+}
+
+/* GRID DA CALCULADORA */
+.container{
+    margin: auto;
+    background-color: gray;
+    width: 270px;
+    height: 370px;
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+    
+    
+    grid-template-areas: "a1 a1 a1 a1"
+                         "a2 a3 a4 a5"
+                         "a6 a7 a8 a9"
+                         "a10 a11 a12 a13"
+                         "a14 a15 a16 a17";                       
+}
+
+
+/* COR DE TODOS OS FILHOS DA GRID */
+.grid{ 
+    background-color: #c7c7c7;   
+}
+
+
+/* ONDE EXEBIRA O RESULTADO */
+span{
+    font-size: 40px;
+    position: relative;
+    bottom: -20px;
+    right: -220px;    
+}
+
+
+/* BOTÕES*/
+button{
+    background-color: #c7c7c7;
+    border-color:#c7c7c7;  
+    height: 60px;
+    width: 60px;
+    font-size: 20px;     
+}
+
+
+/* EFEITO AO PASSAR EM CIMA*/
+button:hover{
+    background-color: #42404033;
+}
+
+
+/* CLASSE PARA AJUSTAR AS GRID DA TECLA DO TAMANHO DOS BOTÕES*/
+.t{
+    width: 60px;
+    height: 60px;      
+}
+
+
+input{
+    width: 97.5%;
+    font-size: 16px;
+}
+
+
+/* TODAS AS GRIDS*/
+.item1{
+    grid-area: a1;
+    height: 70px;  
+}
+
+.item2{
+    grid-area: a2;   
+}
+
+.item3{
+    grid-area: a3;
+}
+
+.item4{
+    grid-area: a4;
+}
+
+.item5{
+    grid-area: a5;
+    
+}
+
+.item6{
+    grid-area: a6;
+}
+
+.item7{
+    grid-area: a7;
+}
+
+.item8{
+    grid-area: a8;
+}
+
+.item9{
+    grid-area: a9;
+}
+
+.item10{
+    grid-area: a10;
+}
+
+.item11{
+    grid-area: a11;
+}
+
+.item12{
+    grid-area: a12;
+}
+
+.item13{
+    grid-area: a13;
+}
+
+.item14{
+    grid-area: a14;
+}
+
+.item15{
+    grid-area: a15;
+}
+
+.item16{
+    grid-area: a16;
+}
+
+.item17{
+    grid-area: a17;
+}

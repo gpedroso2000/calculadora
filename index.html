@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>  
+    <link href="./style.css" rel="stylesheet">
+    <link rel="icon" type="img/png" href="./image/calculadora.png">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="grid item1"><input type="text" id="display" readonly value="0"></div>
+        <div class="t grid item2"><button onclick="writeNumber(this)">7</button></div>
+        <div class="t grid item3"><button onclick="writeNumber(this)">8</button></div>
+        <div class="t grid item4"><button onclick="writeNumber(this)">9</button></div>
+        <div class="t grid item5"><button onclick="writeExp(this)">*</button></div>
+        <div class="t grid item6"><button onclick="writeNumber(this)">4</button></div>
+        <div class="t grid item7"><button onclick="writeNumber(this)">5</button></div>
+        <div class="t grid item8"><button onclick="writeNumber(this)">6</button></div>
+        <div class="t grid item9"><button onclick="writeExp(this)">/</button></div>
+        <div class="t grid item10"><button onclick="writeNumber(this)">1</button></div>
+        <div class="t grid item11"><button onclick="writeNumber(this)">2</button></div>
+        <div class="t grid item12"><button onclick="writeNumber(this)">3</button></div>
+        <div class="t grid item13"><button onclick="writeExp(this)">-</button></div>
+        <div class="t grid item14"><button onclick="cleartxt()" id="cl">C</button></div>
+        <div class="t grid item15"><button onclick="writeNumber(this)">0</button></div>
+        <div class="t grid item16"><button onclick="calcular()">=</button></div>
+        <div class="t grid item17"><button onclick="writeExp(this)">+</button></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
